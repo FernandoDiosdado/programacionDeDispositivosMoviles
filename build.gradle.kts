@@ -24,8 +24,8 @@ tasks.jar.configure{ // configura la tarea que genera el archivo jar
     manifest{
         //se obtiene el nombre del archivo original
         //attributes(mapOf("Main-Class" to "org.example.holakotlin.HolakotlinKt"))
-        attributes(mapOf("Main-Class" to "mx.upiita.holakotlin.HolaKotlinKt")) // archivo que tiene el main
-    }
+        attributes(mapOf("Main-Class" to "mx.upiita.holakotlin.MayorNumeroKt")) // archivo que tiene el main
+    }/*mx.upiita.holakotlin.HolaKotlinKt*/
     configurations["compileClasspath"].forEach{ // agrega todas las bibliotecas al jar
             file: File -> from(zipTree(file.absoluteFile))
     }
