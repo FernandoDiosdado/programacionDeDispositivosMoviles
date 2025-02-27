@@ -48,4 +48,6 @@ fun main(args: Array<String>){
     //is otro operador
     //pedir al usuario el mes que quiera, responder la estación, temperada de lluvia
     //los rangos no pueden ser descendientes 10 .. 0
+
+
 }
