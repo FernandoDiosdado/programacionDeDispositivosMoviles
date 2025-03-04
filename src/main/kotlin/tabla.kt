@@ -32,6 +32,4 @@ fun main(){
         var res = scanner.nextLine()
     }while(res == "si")
 
-
-
 }
