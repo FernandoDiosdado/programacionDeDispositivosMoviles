@@ -44,3 +44,10 @@ fun primos(a: Int = 1, n: Int): Int{
 
 }
 
+/*
+* 04/03/2025
+Ejercicio 1: Crear una función recursiva que calcule el factorial de un numero n
+Ejercicio 2: Crear una función que imprima la serie de fibonacci
+Ejercicio 3: Crear una función que reciba un entero e imprima los numeros primos entre 0 y el numero
+* */
+
