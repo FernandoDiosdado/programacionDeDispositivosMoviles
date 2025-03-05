@@ -1,7 +1,11 @@
 package mx.upiita.holakotlin
+import kotlin.math.ceil
 
 fun main(){
     println(factorial(5))
+    fibonacci(n = 10)
+    println()
+    primos(n = 35)
 }
 
 fun factorial(n: Int): Int{
@@ -10,3 +14,33 @@ fun factorial(n: Int): Int{
     else
         return n*factorial(n-1)
 }
+
+fun fibonacci(a: Int = 1, b: Int = 0, n: Int): Int{
+    if(n == 0 ){
+        return 0
+    }else{
+        print("$b, ")
+        var c = a+b
+        return fibonacci(b,c,n-1)
+    }
+}
+
+fun primos(a: Int = 1, n: Int): Int{
+    var o = 0
+    if(/*n == 0 ||*/ a > n){
+        return 0
+    }else{
+        for(i in 2 .. ceil(a/2.00).toInt()){
+            if (a%i == 0){
+                o = 1
+                break
+            }
+        }
+        if(o == 0){
+            print("$a, ")
+        }
+        return primos(a+1, n)
+    }
+
+}
+
