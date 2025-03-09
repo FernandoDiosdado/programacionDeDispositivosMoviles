@@ -1,4 +1,3 @@
-package mx.upiita
 import mx.upiita.holakotlin.Persona
 /*import kotlin.random.Random
 
