@@ -1,4 +1,4 @@
-//package mx.upiita
+package mx.upiita
 import kotlin.random.Random
 
 fun main(args: Array<String>) {
